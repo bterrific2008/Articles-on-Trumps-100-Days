@@ -1,3 +1,4 @@
+package nyt;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -14,6 +15,8 @@ import java.util.concurrent.TimeUnit;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import secret.API_Keys;
 
 public class NYT_100Days {
 

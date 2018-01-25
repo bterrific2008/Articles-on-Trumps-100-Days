@@ -1,3 +1,4 @@
+package breitbart;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,6 +16,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import secret.API_Keys;
+
 public class Breit_100Days {
 
 	public String apiKey = API_Keys.news_apiKey;
@@ -23,7 +26,7 @@ public class Breit_100Days {
 
 	public static void main(String[] args) {
 		Breit_100Days breit = new Breit_100Days();
-
+		
 		try {
 			breit.start100Days();
 		} catch (JSONException e) {
@@ -45,8 +48,8 @@ public class Breit_100Days {
 
 	public void start100Days() throws JSONException, IOException, InterruptedException{
 
-		File file = new File("nytTrump100Days.txt");
-		File csvFile = new File("nytTrump100Days.csv");
+		File file = new File("breitTrump100Days.txt");
+		File csvFile = new File("breitTrump100Days.csv");
 
 		BufferedWriter bfWriter = new BufferedWriter(new FileWriter(file));
 		BufferedWriter csvBfWriter = new BufferedWriter(new FileWriter(csvFile));
@@ -55,7 +58,7 @@ public class Breit_100Days {
 		PrintWriter csvWriter = new PrintWriter(csvBfWriter);
 
 		csvWriter.println("Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Text,Media,Media Credit,Media Caption,Media Thumbnail,Type,Group,Background");
-		csvWriter.println(",,,,,,,,,NYT Articles for 100 Days of Trump,A collection of NYT Articles written during President Trump's first 100 days.,http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png,New York Times Developers,\"<a href=\"\"http://developer.nytimes.com\"\" title=\"\"The New York Times Developers\"\">The New York Times Developers</a>\",,title,,");
+		csvWriter.println(",,,,,,,,,Breitbart Articles for 100 Days of Trump,A collection of Breitbart Articles written during President Trump's first 100 days.,http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png,New York Times Developers,\"<a href=\"\"http://developer.nytimes.com\"\" title=\"\"The New York Times Developers\"\">The New York Times Developers</a>\",,title,,");
 
 		int page;
 		for(int dateCount = 0; dateCount<startingDates.length; dateCount++){
@@ -157,7 +160,10 @@ public class Breit_100Days {
 
 		URL url = null;
 
-		String urlAddress = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=trump&facet_field=source&page="+page+"&begin_date="+startDate+"&end_date="+endDate+"&api-key=";
+		//https://newsapi.org/v2/top-headlines?sources=breitbart-news&apiKey=API_KEY
+
+		
+		String urlAddress = "https://newsapi.org/v2/top-headlines?q=trump&sources=breitbart-news&apiKey=";
 
 		try {
 			url= new URL(urlAddress+apiKey);
