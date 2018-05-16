@@ -1,4 +1,4 @@
-package breitbart;
+package nyt;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,36 +16,28 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import secret.API_Keys;
 
-public class Breit_100Days {
+public class NYT_search {
 
-	public String apiKey = API_Keys.news_apiKey;
-	public String startingDates[] = null, endingDates[] = null;
+	private String[] startingDates;
+	private String[] endingDates;
+	private String[] fields;
+	private String apiKey;
+	private String query;
 
-	public static void main(String[] args) {
-		Breit_100Days breit = new Breit_100Days();
-		
-		try {
-			breit.start100Days();
-		} catch (JSONException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-
-	public Breit_100Days(){
-		this.loadDates(2017, 01, 20, 2017, 04, 29);
+	public NYT_search(String api_key, String query, String begin_date, String end_date, String... fields){
+		this.apiKey = api_key;
+		this.query = query;
+		this.loadDates(Integer.parseInt(begin_date.substring(0,4)), Integer.parseInt(begin_date.substring(4,6)), Integer.parseInt(begin_date.substring(6,8)), 
+				Integer.parseInt(end_date.substring(0,4)), Integer.parseInt(end_date.substring(4,6)), Integer.parseInt(end_date.substring(6,8)));
+		this.fields = fields;
 	}
 
 
-	public void start100Days() throws JSONException, IOException, InterruptedException{
+	public void startSearch() throws JSONException, IOException, InterruptedException{
 
-		File file = new File("breitTrump100Days.txt");
-		File csvFile = new File("breitTrump100Days.csv");
+		File file = new File("nyt"+query+".txt");
+		File csvFile = new File("nyt"+query+".csv");
 
 		BufferedWriter bfWriter = new BufferedWriter(new FileWriter(file));
 		BufferedWriter csvBfWriter = new BufferedWriter(new FileWriter(csvFile));
@@ -54,7 +46,7 @@ public class Breit_100Days {
 		PrintWriter csvWriter = new PrintWriter(csvBfWriter);
 
 		csvWriter.println("Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Text,Media,Media Credit,Media Caption,Media Thumbnail,Type,Group,Background");
-		csvWriter.println(",,,,,,,,,Breitbart Articles for 100 Days of Trump,A collection of Breitbart Articles written during President Trump's first 100 days.,http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png,New York Times Developers,\"<a href=\"\"http://developer.nytimes.com\"\" title=\"\"The New York Times Developers\"\">The New York Times Developers</a>\",,title,,");
+		csvWriter.println(",,,,,,,,,NYT Articles after a search for "+query+",A collection of NYT Articles written about "+query+".,http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png,New York Times Developers,\"<a href=\"\"http://developer.nytimes.com\"\" title=\"\"The New York Times Developers\"\">The New York Times Developers</a>\",,title,,");
 
 		int page;
 		for(int dateCount = 0; dateCount<startingDates.length; dateCount++){
@@ -156,13 +148,16 @@ public class Breit_100Days {
 
 		URL url = null;
 
-		//https://newsapi.org/v2/top-headlines?sources=breitbart-news&apiKey=API_KEY
-
-		
-		String urlAddress = "https://newsapi.org/v2/top-headlines?q=trump&sources=breitbart-news&apiKey=";
+		String urlAddress = "http://api.nytimes.com/svc/search/v2/articlesearch.json?"+
+		"q="+query+"&page="+page+"&begin_date="+startDate+"&end_date="+endDate+"&fl=";
+		for(int i = 0; i<fields.length; i++){
+			urlAddress+=fields[i];
+			if(i<fields.length-1)
+				urlAddress+=",";
+		}
 
 		try {
-			url= new URL(urlAddress+apiKey);
+			url= new URL(urlAddress+"&api-key="+apiKey);
 		} catch (MalformedURLException e) {
 			System.err.println("Error: URL invalid\n"+urlAddress);
 			return null;
@@ -182,9 +177,10 @@ public class Breit_100Days {
 			e.printStackTrace();
 			return null;
 		} catch (IOException e) {
+			System.out.println(url.toString());
 			e.printStackTrace();
 			return null;
-		}
+		} 
 
 		JSONObject jsonObject = null;
 
