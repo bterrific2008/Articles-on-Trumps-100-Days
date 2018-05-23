@@ -144,6 +144,9 @@ public class NYTAPI_GUI extends JFrame implements ActionListener{
 				if(fields[i].isSelected())
 					fields_str_length++;
 			}
+			if(fields_str_length==0){
+				fields_str_length = fields.length;
+			}
 			String[] fields_str = new String[fields_str_length];
 			int count = 0;
 			for(int i = 0; i<fields.length; i++){
