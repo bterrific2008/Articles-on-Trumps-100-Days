@@ -99,7 +99,7 @@ public class NYT_100Days {
 				fileWriter.flush();
 				csvWriter.flush();
 			}
-			System.out.println(page);
+//			System.out.println(page+"!");
 
 			while(docs.length()>=10 && page<10){
 				page++;

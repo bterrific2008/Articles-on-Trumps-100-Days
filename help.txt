@@ -1,0 +1,200 @@
+https://www.nytimes.com/2018/02/14/us/california-midterms-republicans-democrats-house.html
+{"sub":null,"content_kicker":null,"name":null,"main":"How an Abundance of Democratic Candidates Could Help the G.O.P. Hold the House","seo":null,"print_headline":"Democratic Candidates Aplenty? That Could Help G.O.P. in House Races","kicker":null}
+https://www.nytimes.com/2018/02/13/business/dealbook/steve-cohen-sexual-discrimination-lawsuit.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Will Market Volatility Help Goldman Get Its Groove Back?: DealBook Briefing","seo":null,"print_headline":"","kicker":null}
+https://www.nytimes.com/2018/02/10/opinion/sunday/yazidis-islamic-state-rape-genocide.html
+{"sub":null,"content_kicker":"Opinion","name":null,"main":"Outraged by the Attacks on Yazidis? It Is Time to Help.","seo":null,"print_headline":"We Need More Than Empathy","kicker":"Opinion"}
+https://www.nytimes.com/2018/02/20/us/gendercool-transgender.html
+{"sub":null,"content_kicker":null,"name":null,"main":"These Transgender Children Say They\u2019re Thriving. They Want to Help Others Do the Same.","seo":null,"print_headline":"These Transgender Children Say They\u2019re Thriving. They Want to Help Others Do the Same.","kicker":null}
+https://www.nytimes.com/2018/02/07/learning/lesson-plans/teaching-the-winter-olympics-across-the-curriculum-with-help-from-the-new-york-times.html
+{"sub":null,"content_kicker":"Current Events","name":null,"main":"Teaching the Winter Olympics Across the Curriculum, With Help From The New York Times","seo":null,"print_headline":"Teaching the Winter Olympics Across the Curriculum, With Help From The New York Times","kicker":"Current Events"}
+https://www.nytimes.com/2018/02/04/nyregion/side-street-puerto-rico-recovery.html
+{"sub":null,"content_kicker":"Side Street","name":null,"main":"From San Juan to New York, He Offers Help and Hope for the Uprooted","seo":null,"print_headline":"From San Juan to New York, He Offers Help for the Uprooted","kicker":"Side Street"}
+https://www.nytimes.com/2018/02/14/books/review/millennials-youth-behavior.html
+{"sub":null,"content_kicker":"The Shortlist","name":null,"main":"3 Books to Help You Understand Millennials and Beyond","seo":null,"print_headline":"Millennials and Beyond","kicker":"The Shortlist"}
+https://www.nytimes.com/2018/02/09/your-money/find-tax-return-preparers.html
+{"sub":null,"content_kicker":"Your Money Adviser","name":null,"main":"How Taxpayers Who Want Help Can Find a Reputable Preparer","seo":null,"print_headline":"How Taxpayers Seeking Help Can Find a Qualified Preparer","kicker":"Your Money Adviser"}
+https://www.nytimes.com/2018/02/26/science/fat-cells-wounds-flies.html
+{"sub":null,"content_kicker":"Trilobites","name":null,"main":"Inside Wounded Flies, Fat Cells Race to the Rescue","seo":null,"print_headline":"Built For Comfort: Inside Wounded Flies, Fat Cells Race to Help","kicker":"Trilobites"}
+https://www.nytimes.com/2018/02/27/travel/skipping-hotel-housekeeping-perks.html
+{"sub":null,"content_kicker":"TRENDING","name":null,"main":"How Skipping Hotel Housekeeping Can Help the Environment and Your Wallet","seo":null,"print_headline":"When Housekeeping Knocks, What Will You Say?","kicker":"TRENDING"}
+https://www.nytimes.com/2018/02/05/books/review-friend-sigrid-nunez.html
+{"sub":null,"content_kicker":"Books of The Times","name":null,"main":"Mourning With the Help of a Great Dane","seo":null,"print_headline":"Her Dog Days of Grief and Mourning","kicker":"Books of The Times"}
+https://www.nytimes.com/2018/02/23/books/black-panther-comics-graphic-novels.html
+{"sub":null,"content_kicker":"Newsbook","name":null,"main":"What to Read After Watching \u2018Black Panther\u2019","seo":null,"print_headline":"Here to Help; Three Books to Read After Watching \u201cBlack Panther\u201d","kicker":"Newsbook"}
+https://www.nytimes.com/2018/02/19/nyregion/opioid-overdose-heroin-deaths-new-york.html
+{"sub":null,"content_kicker":null,"name":null,"main":"City Officials See Progress in Effort to Curb Opioid Deaths","seo":null,"print_headline":"Does $38 Million Help to Curb Opioid Deaths? Maybe","kicker":null}
+https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html
+{"sub":null,"content_kicker":null,"name":null,"main":"If a Law Bars Asking Your Past Salary, Does It Help or Hurt?","seo":null,"print_headline":"Bans on Asking  About Past Pay  Can Backfire","kicker":null}
+https://www.nytimes.com/2018/02/15/us/politics/epa-pollution-loophole-glider-trucks.html
+{"sub":null,"content_kicker":"Trump Rules","name":null,"main":"How $225,000 Can Help Secure a Pollution Loophole at Trump\u2019s E.P.A.","seo":null,"print_headline":"Steering Big Rigs Around Emissions Standards","kicker":"Trump Rules"}
+https://www.nytimes.com/2018/02/14/well/move/a-before-school-exercise-program-may-help-children-thrive.html
+{"sub":null,"content_kicker":"Phys Ed","name":null,"main":"A Before-School Exercise Program May Help Children Thrive","seo":null,"print_headline":"Rise and Shine (and Play Tag)","kicker":"Phys Ed"}
+https://www.nytimes.com/2018/02/12/opinion/puerto-rico-water-electricity.html
+{"sub":null,"content_kicker":"Op-Ed Contributor","name":null,"main":"Puerto Rico Needs More Than Bandages","seo":null,"print_headline":"Puerto Rico Needs More Help","kicker":"Op-Ed Contributor"}
+https://www.nytimes.com/2018/02/13/smarter-living/cash-back-apps.html
+{"sub":null,"content_kicker":null,"name":null,"main":"4 Free Apps That Can Earn You Extra Cash","seo":null,"print_headline":"Some Free Apps to Help  You Pay for That Latte","kicker":null}
+https://www.nytimes.com/2018/02/12/business/dealbook/weinstein-victims-lawsuit.html
+{"sub":null,"content_kicker":"DealBook","name":null,"main":"Does a Lawsuit Now Help the Weinstein Victims?","seo":null,"print_headline":"Blocking Sale Could Hurt The Victims Of Weinstein","kicker":"DealBook"}
+https://www.nytimes.com/2018/02/11/business/us-exim-vietnam-coal.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Vietnam Pulls Request for U.S. Help to Build a Coal-Fired Power Plant","seo":null,"print_headline":"Vietnam Pulls Its Request For U.S. Aid on Coal Plant","kicker":null}
+https://www.nytimes.com/2018/02/03/realestate/possible-mold-in-the-walls-and-an-unresponsive-board.html
+{"sub":null,"content_kicker":"Ask Real Estate","name":null,"main":"Possible Mold in the Walls and an Unresponsive Board","seo":null,"print_headline":"When Mold Appears on the Wall,  It\u2019s Up to the Co-op Board to Help","kicker":"Ask Real Estate"}
+https://www.nytimes.com/2018/02/12/nyregion/percoco-howe-cuomo-corruption-trial.html
+{"sub":null,"content_kicker":null,"name":null,"main":"You Can Put a Suit on a Problematic Witness, but Will Jurors Believe Him?","seo":null,"print_headline":"After Arrest, Witness May Wear a Suit. But Will Clothing Help His Credibility?","kicker":null}
+https://www.nytimes.com/video/admin/100000005752522/peggy-johnson-on-ais-potential.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Peggy Johnson on A.I.\u2019s Potential","seo":null,"print_headline":null,"kicker":null}
+https://www.nytimes.com/video/admin/100000005753177/maja-mataric-on-robots-that-care.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Maja Matari? on Robots That Care","seo":null,"print_headline":null,"kicker":null}
+https://www.nytimes.com/video/t-magazine/100000005720698/tell-t-a-joke-judy-chicago.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Tell T a Joke | Judy Chicago","seo":null,"print_headline":null,"kicker":null}
+https://www.nytimes.com/2018/02/22/opinion/pell-grants-prisoners.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"A Push to Lift a Ban on Pell Grants for Prisoners","seo":null,"print_headline":"A Push to Lift a Ban on Pell Grants for Prisoners","kicker":"Letter"}
+https://www.nytimes.com/2018/02/15/smarter-living/prepare-your-community-for-a-disaster.html
+{"sub":null,"content_kicker":null,"name":null,"main":"How to Prepare Your Community for a Disaster","seo":null,"print_headline":"How to Prepare Your Community for a Disaster","kicker":null}
+https://www.nytimes.com/2018/02/19/opinion/public-schools.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"On Closing Public Schools","seo":null,"print_headline":"On Closing Public Schools","kicker":"Letter"}
+https://www.nytimes.com/2018/02/18/opinion/bermuda-lgbtq.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"Don\u2019t Boycott Bermuda","seo":null,"print_headline":"Don\u2019t Boycott Bermuda","kicker":"Letter"}
+https://www.nytimes.com/2018/02/15/travel/language-tips-apps.html
+{"sub":null,"content_kicker":"Travel Tips","name":null,"main":"How to Get by in a Country Where You Don\u2019t Know the Language","seo":null,"print_headline":"Steps to Move Past a Language Barrier","kicker":"Travel Tips"}
+https://www.nytimes.com/2018/02/21/your-money/feeling-the-urge-to-spend-stop-ponder-and-let-it-pass.html
+{"sub":null,"content_kicker":"Sketch Guy","name":null,"main":"Feeling the Urge to Spend? Stop, Ponder and Let it Pass","seo":null,"print_headline":"Feeling the Urge to Spend? Stop, Ponder and Let it Pass","kicker":"Sketch Guy"}
+https://www.nytimes.com/2018/02/13/world/middleeast/israel-netanyahu-investigation-highlights.html
+{"sub":null,"content_kicker":null,"name":null,"main":"The Case Against Netanyahu: Highlights From the Police Investigation","seo":null,"print_headline":"Highlights From Parallel Cases In Israel Against Netanyahu","kicker":null}
+https://www.nytimes.com/2018/02/27/opinion/college-student-loan-debt.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"College Student Loan Debt","seo":null,"print_headline":"College Loan Debt","kicker":"Letter"}
+https://www.nytimes.com/2018/02/26/crosswords/what-the-heck-is-that-captcha.html
+{"sub":null,"content_kicker":"Wordplay","name":null,"main":"What the Heck Is That?: CAPTCHA","seo":null,"print_headline":"What the Heck Is That?: CAPTCHA","kicker":"Wordplay"}
+https://www.nytimes.com/interactive/2018/02/23/well/live/23healthquiz-02232018.html
+{"sub":null,"content_kicker":null,"name":null,"main":"The Weekly Health Quiz: Weight Loss, Memory and a Cancer Cure","seo":null,"print_headline":null,"kicker":""}
+https://www.nytimes.com/2018/02/22/world/unicef-official-resigns-justin-forsyth.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Unicef Official Resigns Over His Past Conduct Toward Women","seo":null,"print_headline":"Unicef Official Resigns Over His Past Conduct Toward Women","kicker":null}
+https://www.nytimes.com/2018/02/20/learning/20WODLN.html
+{"sub":null,"content_kicker":"Word of the Day","name":null,"main":"Word + Quiz: outlier","seo":null,"print_headline":"Word + Quiz: outlier","kicker":"Word of the Day"}
+https://www.nytimes.com/2018/02/20/us/george-clooney-protest.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Clooney, Winfrey and Spielberg Donate Money for March Against Gun Violence","seo":null,"print_headline":"Clooneys Vow  $500,000 Aid  For Marchers","kicker":null}
+https://www.nytimes.com/2018/02/18/nyregion/african-immigrants-bronx-community-college.html
+{"sub":null,"content_kicker":null,"name":null,"main":"African Immigrants Find an Open Door at a Bronx College","seo":null,"print_headline":"African Immigrants Find an Open Door at Bronx College","kicker":null}
+https://www.nytimes.com/2018/02/15/arts/comedy-in-nyc-this-week.html
+{"sub":null,"content_kicker":null,"name":null,"main":"5 Comedy Shows to Catch in NYC This Weekend","seo":null,"print_headline":"Comedy","kicker":null}
+https://www.nytimes.com/2018/02/12/technology/personaltech/cellular-data-use.html
+{"sub":null,"content_kicker":"Tech Tip","name":null,"main":"Measuring and Managing Your Cellular Data Use","seo":null,"print_headline":"Measuring Your Use of Cellular Data","kicker":"Tech Tip"}
+https://www.nytimes.com/2018/02/11/opinion/redistricting.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"Redistricting Plans","seo":null,"print_headline":"Redistricting Plans","kicker":"Letter"}
+https://www.nytimes.com/2018/02/14/nyregion/rikers-island-jail-closing-timeline.html
+{"sub":null,"content_kicker":null,"name":null,"main":"New York State May Move to Close Rikers Ahead of City\u2019s 10-Year Timeline","seo":null,"print_headline":"New York State May Speed Up City\u2019s Rikers Plan","kicker":null}
+https://www.nytimes.com/interactive/2018/02/09/well/live/09healthquiz-02092018.html
+{"sub":null,"content_kicker":null,"name":null,"main":"The Weekly Health Quiz: Cellphones, Hangovers and Flu Emergencies","seo":null,"print_headline":null,"kicker":""}
+https://www.nytimes.com/2018/02/25/technology/smartphones-mental-health.html
+{"sub":null,"content_kicker":null,"name":null,"main":"How Companies Scour Our Digital Lives for Clues to Our Health","seo":null,"print_headline":"Scouring  Our Clicks  For Clues  To Our Health","kicker":null}
+https://www.nytimes.com/2018/02/10/realestate/your-neighbor-dislikes-your-dog-and-now-thats-your-problem.html
+{"sub":null,"content_kicker":"Ask Real Estate","name":null,"main":"Your Neighbor Dislikes Your Dog. And Now That\u2019s Your Problem.","seo":null,"print_headline":"Your Neighbor Dislikes Your Dog. And Now That\u2019s Your Problem.","kicker":"Ask Real Estate"}
+https://www.nytimes.com/2018/02/08/opinion/elder-care.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"The Problem of Elder Care","seo":null,"print_headline":"The Problem of Elder Care","kicker":"Letter"}
+https://www.nytimes.com/2018/02/07/technology/personaltech/google-assistant-on-tap.html
+{"sub":null,"content_kicker":"Tech Tip","name":null,"main":"Keeping Google Assistant on Tap","seo":null,"print_headline":"Keeping Google Assistant on Tap","kicker":"Tech Tip"}
+https://www.nytimes.com/2018/02/05/sports/baseball/todd-frazier-mets.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Mets Sign Todd Frazier to Two-Year Deal","seo":null,"print_headline":"Baseball; Mets Are Said to Sign Frazier From Yankees","kicker":null}
+https://www.nytimes.com/2018/02/26/smarter-living/if-its-not-a-100-yes-its-a-no.html
+{"sub":null,"content_kicker":null,"name":null,"main":"If You\u2019re Not All-In About a New Opportunity, Just Say No","seo":null,"print_headline":"","kicker":null}
+https://www.nytimes.com/2018/02/25/science/fda-medication-assisted-therapy.html
+{"sub":null,"content_kicker":null,"name":null,"main":"F.D.A. to Expand Medication-Assisted Therapy for Opioid Addicts","seo":null,"print_headline":"Drugs to Lull Opioid Urges Given Nod By F.D.A.","kicker":null}
+https://www.nytimes.com/2018/02/04/opinion/fake-followers.html
+{"sub":null,"content_kicker":"Letter","name":null,"main":"No Value in Fake Followers","seo":null,"print_headline":"No Value in Fake Followers","kicker":"Letter"}
+https://www.nytimes.com/2018/02/24/opinion/sunday/doctors-revolt-bernard-lown.html
+{"sub":null,"content_kicker":"Opinion","name":null,"main":"Doctors, Revolt!","seo":null,"print_headline":"Doctors, Revolt!","kicker":"Opinion"}
+https://www.nytimes.com/2018/02/27/lens/celebrating-indian-photographers-at-houston-fotofest-international.html
+{"sub":null,"content_kicker":"Lens","name":null,"main":"Indians Celebrating India at Houston FotoFest","seo":null,"print_headline":"Indians Celebrating India at Houston FotoFest","kicker":"Lens"}
+https://www.nytimes.com/2018/02/04/opinion/let-them-eat-french-fries.html
+{"sub":null,"content_kicker":"Op-Ed Columnist","name":null,"main":"Let Them Eat French Fries","seo":null,"print_headline":"Let Them Eat French Fries","kicker":"Op-Ed Columnist"}
+https://www.nytimes.com/2018/02/26/world/europe/rome-snow.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Snow Falls in Rome, and the Eternal City Takes a Holiday","seo":null,"print_headline":"","kicker":null}
+https://www.nytimes.com/2018/02/16/nyregion/nycha-housing-takeover-heat.html
+{"sub":null,"content_kicker":null,"name":null,"main":"For de Blasio and Cuomo, a Tug of War Over City Housing Authority","seo":null,"print_headline":"The Latest Mayor-Governor Spat Is Over Fixing Public Housing Boilers","kicker":null}
+https://www.nytimes.com/2018/02/19/smarter-living/presidents-day-what-to-do-with-a-day-off.html
+{"sub":null,"content_kicker":"","name":null,"main":"What to Do With a Day Off","seo":null,"print_headline":"","kicker":""}
+https://www.nytimes.com/2018/02/20/crosswords/daily-puzzle-2018-02-21.html
+{"sub":null,"content_kicker":"Wordplay","name":null,"main":"Certain Mailing Address","seo":null,"print_headline":"Certain Mailing Address","kicker":"Wordplay"}
+https://www.nytimes.com/2018/02/12/well/family/caring-for-siblings-of-sick-or-disabled-children.html
+{"sub":null,"content_kicker":"The Checkup","name":null,"main":"Caring for Siblings of Sick or Disabled Children","seo":null,"print_headline":"Caring for Siblings of Sick or Disabled Children","kicker":"The Checkup"}
+https://www.nytimes.com/2018/02/17/opinion/sunday/yoga-pants-sweatpants-women.html
+{"sub":null,"content_kicker":"Sporting","name":null,"main":"Why Yoga Pants Are Bad for Women","seo":null,"print_headline":"Yoga Pants Are Bad for Women","kicker":"Sporting"}
+https://www.nytimes.com/2018/02/17/sports/olympics/nigeria-bobsled.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Bobsled Team Represents Nigeria Loosely, but Women Truly","seo":null,"print_headline":"Bobsledders for Nigeria Break Barriers, if Not Records","kicker":null}
+https://www.nytimes.com/2018/02/19/crosswords/daily-puzzle-2018-02-20.html
+{"sub":null,"content_kicker":"Wordplay","name":null,"main":"Producing the Clues","seo":null,"print_headline":"Producing the Clues","kicker":"Wordplay"}
+https://www.nytimes.com/2018/02/19/nyregion/percoco-lawyer-legal-fees-cuomo.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Who\u2019s Paying Ex-Cuomo Aide\u2019s Legal Bills? No One\u2019s Talking","seo":null,"print_headline":"Who\u2019s Paying Ex-Cuomo Aide\u2019s Legal Bills? \u2018Why Is That Your Business?\u2019","kicker":null}
+https://www.nytimes.com/2018/02/27/technology/personaltech/monitor-cellular-data.html
+{"sub":null,"content_kicker":"Tech Tip","name":null,"main":"How to Monitor Cellular Data Use for Apps","seo":null,"print_headline":"Monitoring Cellular Data Use for Apps","kicker":"Tech Tip"}
+https://www.nytimes.com/2018/02/10/watching/homeland-season-7-premiere-catchup-what-you-need-to-know.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Ready for Season 7 of \u2018Homeland\u2019? Here\u2019s What You Need to Know","seo":null,"print_headline":"Ready for Season 7 of \u2018Homeland\u2019? Here\u2019s What You Need to Know","kicker":null}
+https://www.nytimes.com/2018/02/15/smarter-living/5-cheap-ish-things-to-put-on-any-gift-registry-or-just-buy-as-gifts.html
+{"sub":null,"content_kicker":"","name":null,"main":"5 Cheap(ish) Things to Put on Any Gift Registry (Or Just Buy as Gifts)","seo":null,"print_headline":"","kicker":""}
+https://www.nytimes.com/2018/02/26/watching/filmstruck-classic-movies-warner-bros.html
+{"sub":null,"content_kicker":null,"name":null,"main":"\u2018Casablanca,\u2019 \u2018Citizen Kane\u2019 and Hundreds of Other Warner Archive Films Just Appeared on FilmStruck","seo":null,"print_headline":"\u2018Casablanca,\u2019 \u2018Citizen Kane\u2019 and Hundreds of Other Warner Archive Films Just Appeared on FilmStruck","kicker":null}
+https://www.nytimes.com/2018/02/24/world/asia/philippine-maid-death-arrest.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Suspect in Philippine Maid\u2019s Death Arrested in Lebanon","seo":null,"print_headline":"Arrest in Kuwait Maid Killing","kicker":null}
+https://www.nytimes.com/2018/02/16/learning/teaching-with-the-bionic-man.html
+{"sub":null,"content_kicker":"Film Club","name":null,"main":"Teaching With: \u2018The Bionic Man\u2019","seo":null,"print_headline":"Teaching With: \u2018The Bionic Man\u2019","kicker":"Film Club"}
+https://www.nytimes.com/2018/02/23/climate/idaho-climate-change-education.html
+{"sub":null,"content_kicker":null,"name":null,"main":"After Years of Fighting, Idaho Retains Climate Change in Its Education Guidelines","seo":null,"print_headline":"After Years of Fighting, Idaho Retains Climate Change in Its Education Guidelines","kicker":null}
+https://www.nytimes.com/2018/02/14/opinion/remember-puerto-rico.html
+{"sub":null,"content_kicker":"Op-Ed Columnist","name":null,"main":"Remember Puerto Rico","seo":null,"print_headline":"","kicker":"Op-Ed Columnist"}
+https://www.nytimes.com/2018/02/14/style/valentines-day.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Roses Are Red. That\u2019s a Cliché. Here Is Your Guide to Valentine\u2019s Day.","seo":null,"print_headline":"Roses Are Red. That\u2019s a Cliché. Here Is Your Guide to Valentine\u2019s Day.","kicker":null}
+https://www.nytimes.com/2018/02/22/sports/baseball/boston-red-sox-alex-cora.html
+{"sub":null,"content_kicker":"On Baseball","name":null,"main":"Alex Cora Is the Very Model of a Modern Baseball Manager","seo":null,"print_headline":"Red Sox Go in a Different, Yet Somehow Familiar, Direction","kicker":"On Baseball"}
+https://www.nytimes.com/2018/02/09/opinion/sunday/loneliness-health.html
+{"sub":null,"content_kicker":"Gray Matter","name":null,"main":"Is Loneliness a Health Epidemic?","seo":null,"print_headline":"Is Loneliness a Health Epidemic?","kicker":"Gray Matter"}
+https://www.nytimes.com/2018/02/21/opinion/obesity-chile.html
+{"sub":null,"content_kicker":"Letters","name":null,"main":"Chile\u2019s \u2018Radical\u2019 Approach to Addressing Obesity","seo":null,"print_headline":"Chile\u2019s \u2018Radical\u2019 Approach to Addressing Obesity","kicker":"Letters"}
+https://www.nytimes.com/2018/02/12/dining/take-heart-and-cook-newsletter.html
+{"sub":null,"content_kicker":"What to Cook","name":null,"main":"Gold Medal Recipes","seo":null,"print_headline":"Gold Medal Recipes","kicker":"What to Cook"}
+https://www.nytimes.com/2018/02/12/learning/whats-going-on-in-this-picture-feb-12-2018.html
+{"sub":null,"content_kicker":"What\u2019s Going On in This Picture?","name":null,"main":"What\u2019s Going On in This Picture? | Feb. 12, 2018","seo":null,"print_headline":"What\u2019s Going On in This Picture? | Feb. 12, 2018","kicker":"What\u2019s Going On in This Picture?"}
+https://www.nytimes.com/2018/02/20/opinion/russia-election-trump.html
+{"sub":null,"content_kicker":"Op-Ed Columnist","name":null,"main":"Who Still Thinks Russia Didn\u2019t Meddle in the Election?","seo":null,"print_headline":"Who Still Thinks Russia Didn\u2019t Meddle in the Election?","kicker":"Op-Ed Columnist"}
+https://www.nytimes.com/2018/02/08/opinion/winter-olympics-korea.html
+{"sub":null,"content_kicker":"Editorial","name":null,"main":"Here\u2019s Hoping the Winter Games Lead to a Thaw in Korea","seo":null,"print_headline":"A Thaw in Korea for the Winter Games","kicker":"Editorial"}
+https://www.nytimes.com/2018/02/19/health/ovarian-cancer-immunotherapy.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Doctors Said Immunotherapy Would Not Cure Her Cancer. They Were Wrong.","seo":null,"print_headline":"Cured Unexpectedly","kicker":null}
+https://www.nytimes.com/2018/02/18/movies/black-panther-challenge-students.html
+{"sub":null,"content_kicker":null,"name":null,"main":"I Took 7th Graders to See \u2018Black Panther.\u2019 Here\u2019s What They Said.","seo":null,"print_headline":"Tweens and the \u2018Panther\u2019","kicker":null}
+https://www.nytimes.com/2018/02/16/us/survive-active-shooter.html
+{"sub":null,"content_kicker":null,"name":null,"main":"What to Do When There\u2019s an Active Shooter","seo":null,"print_headline":"","kicker":null}
+https://www.nytimes.com/2018/02/16/technology/personaltech/windows-system-restore.html
+{"sub":null,"content_kicker":"Tech Tip","name":null,"main":"Creating a Point of Return for Windows","seo":null,"print_headline":"Creating a Point of Return for Windows","kicker":"Tech Tip"}
+https://www.nytimes.com/2018/02/16/magazine/how-to-forgive.html
+{"sub":null,"content_kicker":"Tip","name":null,"main":"How to Forgive","seo":null,"print_headline":"How to Forgive","kicker":"Tip"}
+https://www.nytimes.com/2018/02/18/business/multiemployer-pension-crisis.html
+{"sub":null,"content_kicker":null,"name":null,"main":"1.5 Million Retirees Await Congressional Fix for a Pension Time Bomb","seo":null,"print_headline":"Congress Sets Path To Fix Crisis In Pensions","kicker":null}
+https://www.nytimes.com/2018/02/14/pageoneplus/corrections-february-15-2018.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Corrections: February 15, 2018","seo":null,"print_headline":"Corrections","kicker":null}
+https://www.nytimes.com/2018/02/14/sports/olympics/skeleton.html
+{"sub":null,"content_kicker":null,"name":null,"main":"What Is Skeleton? It\u2019s Like the Luge \u2014 but Headfirst","seo":null,"print_headline":"Speeding  Around  Icy Track, Headfirst","kicker":null}
+https://www.nytimes.com/2018/02/14/world/americas/brazil-rio-de-janeiro-carnival-violence.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Rio Carnival Is Marred by Violence as City\u2019s Security Troubles Worsen","seo":null,"print_headline":"Rio Carnival Is Tarnished By Violence","kicker":null}
+https://www.nytimes.com/2018/02/14/technology/personaltech/twitter-without-account-.html
+{"sub":null,"content_kicker":"Tech Tip","name":null,"main":"Sampling Twitter (Without an Account)","seo":null,"print_headline":"Sampling Twitter (Without an Account)","kicker":"Tech Tip"}
+https://www.nytimes.com/2018/02/05/learning/whats-going-on-in-this-picture-feb-5-2018.html
+{"sub":null,"content_kicker":"What\u2019s Going On in This Picture?","name":null,"main":"What\u2019s Going On in This Picture? | Feb. 5, 2018","seo":null,"print_headline":"What\u2019s Going On in This Picture? | Feb. 5, 2018","kicker":"What\u2019s Going On in This Picture?"}
+https://www.nytimes.com/2018/02/13/opinion/woody-allen.html
+{"sub":null,"content_kicker":"Letters","name":null,"main":"The Abuse Accusation Against Woody Allen","seo":null,"print_headline":"The Abuse Accusation Against Woody Allen","kicker":"Letters"}
+https://www.nytimes.com/2018/02/13/podcasts/the-daily/nancy-pelosi-dreamers-democrats.html
+{"sub":null,"content_kicker":"The Daily","name":null,"main":"Listen to \u2018The Daily\u2019: Democrats\u2019 Identity Crisis","seo":null,"print_headline":"","kicker":"The Daily"}
+https://www.nytimes.com/2018/02/13/magazine/health-care-professionals-share-their-stories-about-opioid-addicted-patients.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Health Care Professionals Share Their Stories About Opioid-Addicted Patients","seo":null,"print_headline":"Health Care Professionals Share Their Stories About Opioid-Addicted Patients","kicker":null}
+https://www.nytimes.com/2018/02/13/learning/teaching-activities-for-red-gerard-wins-first-usgold-in-pyeongchang-olympics.html
+{"sub":null,"content_kicker":"Article of the Day","name":null,"main":"Teaching Activities for: \u2018Red Gerard Wins First U.S. Gold in Pyeongchang Olympics\u2019","seo":null,"print_headline":"Teaching Activities for: \u2018Red Gerard Wins First U.S. Gold in Pyeongchang Olympics\u2019","kicker":"Article of the Day"}
+https://www.nytimes.com/2018/02/12/opinion/trump-metoo.html
+{"sub":null,"content_kicker":"Letters","name":null,"main":"Trump, Rob Porter and #MeToo","seo":null,"print_headline":"Trump, Rob Porter and #MeToo","kicker":"Letters"}
+https://www.nytimes.com/2018/02/12/business/computer-science-ethics-courses.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Tech\u2019s Ethical \u2018Dark Side\u2019: Harvard, Stanford and Others Want to Address It","seo":null,"print_headline":"On Campus, Computer Science Departments Find a Blind Spot: Ethics","kicker":null}
+https://www.nytimes.com/2018/02/12/learning/13WODLN.html
+{"sub":null,"content_kicker":"Word of the Day","name":null,"main":"Word + Quiz: personify","seo":null,"print_headline":"Word + Quiz: personify","kicker":"Word of the Day"}
+https://www.nytimes.com/2018/02/11/business/takata-bankruptcy-airbags.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Takata\u2019s U.S. Unit Reaches Deal That Eases Way to Sale","seo":null,"print_headline":"Takata\u2019s U.S. Unit Reaches Deal Paving Way for Sale","kicker":null}
+https://www.nytimes.com/2018/02/02/business/dealbook/is-dells-debt-load-pushing-it-into-a-deal.html
+{"sub":null,"content_kicker":null,"name":null,"main":"Is Dell\u2019s Debt Load Pushing It Into a Deal?","seo":null,"print_headline":"Is Dell\u2019s Debt Load Pushing It Into a Deal?","kicker":null}

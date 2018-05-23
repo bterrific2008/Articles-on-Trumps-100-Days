@@ -19,25 +19,22 @@ import org.json.JSONObject;
 
 public class NYT_search {
 
-	private String[] startingDates;
-	private String[] endingDates;
-	private String[] fields;
-	private String apiKey;
-	private String query;
+	private String startingDates[], endingDates[], fields_str[];
+	private String apiKey, query;
 
-	public NYT_search(String api_key, String query, String begin_date, String end_date, String... fields){
-		this.apiKey = api_key;
+	public NYT_search(String apiKey, String query, String startDate, String endDate, String[] fields_str){
+		this.loadDates(Integer.parseInt(startDate.substring(0, 4)), Integer.parseInt(startDate.substring(4, 6)), Integer.parseInt(startDate.substring(6, 8)), 
+				Integer.parseInt(endDate.substring(0, 4)), Integer.parseInt(endDate.substring(4, 6)), Integer.parseInt(endDate.substring(6, 8)));
+		this.apiKey = apiKey;
 		this.query = query;
-		this.loadDates(Integer.parseInt(begin_date.substring(0,4)), Integer.parseInt(begin_date.substring(4,6)), Integer.parseInt(begin_date.substring(6,8)), 
-				Integer.parseInt(end_date.substring(0,4)), Integer.parseInt(end_date.substring(4,6)), Integer.parseInt(end_date.substring(6,8)));
-		this.fields = fields;
+		this.fields_str = fields_str;
 	}
 
 
-	public void startSearch() throws JSONException, IOException, InterruptedException{
-
-		File file = new File("nyt"+query+".txt");
-		File csvFile = new File("nyt"+query+".csv");
+	public void search() throws JSONException, IOException, InterruptedException{
+		System.out.println("confirm");
+		File file = new File(query+".txt");
+		File csvFile = new File(query+".csv");
 
 		BufferedWriter bfWriter = new BufferedWriter(new FileWriter(file));
 		BufferedWriter csvBfWriter = new BufferedWriter(new FileWriter(csvFile));
@@ -45,45 +42,43 @@ public class NYT_search {
 		PrintWriter fileWriter = new PrintWriter(bfWriter);
 		PrintWriter csvWriter = new PrintWriter(csvBfWriter);
 
-		csvWriter.println("Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Text,Media,Media Credit,Media Caption,Media Thumbnail,Type,Group,Background");
-		csvWriter.println(",,,,,,,,,NYT Articles after a search for "+query+",A collection of NYT Articles written about "+query+".,http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200a.png,New York Times Developers,\"<a href=\"\"http://developer.nytimes.com\"\" title=\"\"The New York Times Developers\"\">The New York Times Developers</a>\",,title,,");
 
+		for(int i = 0; i<fields_str.length; i++){
+			csvWriter.print(fields_str[i]);
+			if(i+1<fields_str.length){
+				csvWriter.print(",");
+			}
+		}
+		
+		csvWriter.println();
+		System.out.println("catch");
 		int page;
 		for(int dateCount = 0; dateCount<startingDates.length; dateCount++){
 			page = 1;
 
 			JSONObject root = loadWebsite(startingDates[dateCount],endingDates[dateCount],page);
-			TimeUnit.SECONDS.sleep(3);
+			TimeUnit.SECONDS.sleep(1);
 			JSONObject response = root.getJSONObject("response");
 			JSONArray docs = response.getJSONArray("docs");
 
 			for(int docCount = 0; docCount < docs.length(); docCount++){
 				JSONObject doc = docs.getJSONObject(docCount);
 
-				JSONObject headline = doc.getJSONObject("headline");
-				String pub_date = doc.getString("pub_date");
-				String content = doc.getString("snippet");
-				if(doc.has("abstract")){
-					content = doc.getString("abstract");
-				}
-
-				if(doc.has("type_of_material") && !doc.get("type_of_material").equals(null)){
-					if(doc.getString("type_of_material").equals("News")){
-						fileWriter.println(headline.getString("main"));
-						fileWriter.println(doc.getString("pub_date"));
-						fileWriter.println(content);
-						fileWriter.println(doc.getString("web_url"));
-						fileWriter.println();
-
-						String[] pub_dates = pub_date.split("-");
-
-						csvWriter.print(pub_dates[0]+","+pub_dates[1]+","+pub_dates[2].substring(0, 2)+","+pub_dates[2].substring(3, 10)+",");
-						csvWriter.print(pub_dates[0]+","+pub_dates[1]+","+pub_dates[2].substring(0, 2)+","+pub_dates[2].substring(3, 10)+","+",");
-						csvWriter.print(headline.getString("main")+",");
-						csvWriter.print("\""+content.trim()+"\"");
-						csvWriter.print(" Found at: "+doc.getString("web_url")+",,,,,,,\n");
+				for(int i = 0; i<fields_str.length; i++){
+//					try{
+//						JSONObject field = doc.getJSONObject(fields_str[i]);
+//						System.out.println(field.length());
+//					}catch(JSONException e){
+//						System.err.println(e);
+//					}
+					fileWriter.println(doc.get(fields_str[i]).toString());
+					csvWriter.print("\""+doc.get(fields_str[i]).toString().replaceAll("\"", "\"\"")+"\"");
+					if(docCount+1<docs.length()){
+						csvWriter.print(",");
 					}
 				}
+				csvWriter.println();
+				
 				fileWriter.flush();
 				csvWriter.flush();
 			}
@@ -92,37 +87,27 @@ public class NYT_search {
 			while(docs.length()>=10 && page<10){
 				page++;
 				root = loadWebsite(startingDates[dateCount],endingDates[dateCount],page);
-				TimeUnit.SECONDS.sleep(3);
+				TimeUnit.SECONDS.sleep(1);
 				response = root.getJSONObject("response");
 				docs = response.getJSONArray("docs");
 
 				for(int docCount = 0; docCount < docs.length(); docCount++){
 					JSONObject doc = docs.getJSONObject(docCount);
 
-					JSONObject headline = doc.getJSONObject("headline");
-					String pub_date = doc.getString("pub_date");
-					String content = doc.getString("snippet");
-					if(doc.has("abstract")){
-						content = doc.getString("abstract");
-					}
-
-					if(doc.has("type_of_material") && !doc.get("type_of_material").equals(null)){
-						if(doc.getString("type_of_material").equals("News")){
-							fileWriter.println(headline.getString("main"));
-							fileWriter.println(doc.getString("pub_date"));
-							fileWriter.println(content);
-							fileWriter.println(doc.getString("web_url"));
-							fileWriter.println();
-
-							String[] pub_dates = pub_date.split("-");
-
-							csvWriter.print(pub_dates[0]+","+pub_dates[1]+","+pub_dates[2].substring(0, 2)+","+pub_dates[2].substring(3, 10)+",");
-							csvWriter.print(pub_dates[0]+","+pub_dates[1]+","+pub_dates[2].substring(0, 2)+","+pub_dates[2].substring(3, 10)+","+",");
-							csvWriter.print(headline.getString("main")+",");
-							csvWriter.print("\""+content.trim()+"\"");
-							csvWriter.print(" Found at: "+doc.getString("web_url")+",,,,,,,\n");
+					for(int i = 0; i<fields_str.length; i++){
+//						try{
+//							JSONObject field = doc.getJSONObject(fields_str[i]);
+//							System.out.println(field.length());
+//						}catch(JSONException e){
+//							System.err.println(e);
+//						}
+						fileWriter.println(doc.get(fields_str[i]).toString());
+						csvWriter.print("\""+doc.get(fields_str[i]).toString()+"\"");
+						if(docCount+1<docs.length()){
+							csvWriter.print(",");
 						}
 					}
+					csvWriter.println();
 					
 					fileWriter.flush();
 					csvWriter.flush();
@@ -148,16 +133,20 @@ public class NYT_search {
 
 		URL url = null;
 
-		String urlAddress = "http://api.nytimes.com/svc/search/v2/articlesearch.json?"+
-		"q="+query+"&page="+page+"&begin_date="+startDate+"&end_date="+endDate+"&fl=";
-		for(int i = 0; i<fields.length; i++){
-			urlAddress+=fields[i];
-			if(i<fields.length-1)
+		String urlAddress = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q="+query
+				+"&facet_field=source&page="+page+"&begin_date="+startDate+"&end_date="+endDate;
+
+		for(int i = 0; i<fields_str.length; i++){
+			urlAddress +=fields_str[i];
+			if(i+1<fields_str.length){
 				urlAddress+=",";
+			}
 		}
 
+		urlAddress+="&api-key=";
+
 		try {
-			url= new URL(urlAddress+"&api-key="+apiKey);
+			url= new URL(urlAddress+apiKey);
 		} catch (MalformedURLException e) {
 			System.err.println("Error: URL invalid\n"+urlAddress);
 			return null;
@@ -177,10 +166,9 @@ public class NYT_search {
 			e.printStackTrace();
 			return null;
 		} catch (IOException e) {
-			System.out.println(url.toString());
 			e.printStackTrace();
 			return null;
-		} 
+		}
 
 		JSONObject jsonObject = null;
 
