@@ -134,7 +134,7 @@ public class NYT_search {
 		URL url = null;
 
 		String urlAddress = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q="+query
-				+"&facet_field=source&page="+page+"&begin_date="+startDate+"&end_date="+endDate;
+				+"&facet_field=source&page="+page+"&begin_date="+startDate+"&end_date="+endDate+"&fl=";
 
 		for(int i = 0; i<fields_str.length; i++){
 			urlAddress +=fields_str[i];
@@ -155,19 +155,25 @@ public class NYT_search {
 		BufferedReader reader = null;
 		StringBuilder docBuild = new StringBuilder();
 		String line = "";
-
+		//System.out.println(url.toString());
 		try {
 			reader = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"));
-			while((line=reader.readLine())!=null)
+			while((line=reader.readLine())!=null){
 				docBuild.append(line);
-
-			reader.close();
+			}
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
 			return null;
+		}
+		
+		try {
+			reader.close();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
 		}
 
 		JSONObject jsonObject = null;

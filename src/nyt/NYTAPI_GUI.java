@@ -33,10 +33,10 @@ public class NYTAPI_GUI extends JFrame implements ActionListener{
 		key_label = new JLabel("API Key:");
 		key = new JTextField("");
 
-		String fields_label[] = {"body","creative_works","day_of_week","document_type",
-				"glocations","headline","kicker","news_desk","organizations","persons",
+		String fields_label[] = {"creative_works","day_of_week","document_type",
+				"glocations","headline","snippet","news_desk","organizations","persons",
 				"pub_date","pub_year","secpg","source","subject","section_name","type_of_material",	
-				"web_url","word_count","do not select"};
+				"web_url","word_count"};
 		fields = new JCheckBox[fields_label.length];
 		for(int i = 0; i<fields_label.length; i++){
 			fields[i] = new JCheckBox(fields_label[i]);
@@ -145,16 +145,24 @@ public class NYTAPI_GUI extends JFrame implements ActionListener{
 					fields_str_length++;
 			}
 			if(fields_str_length==0){
-				fields_str_length = fields.length;
+				fields_str_length = fields.length-1;
 			}
+
 			String[] fields_str = new String[fields_str_length];
 			int count = 0;
-			for(int i = 0; i<fields.length; i++){
-				if(fields[i].isSelected()){
-					fields_str[count] = fields[i].getText();
-					count++;
+			if(fields_str_length==fields.length-1){
+				for(int i = 0; i<fields.length-1; i++){
+					fields_str[i] = fields[i].getText();
+				}
+			}else{
+				for(int i = 0; i<fields.length-1; i++){
+					if(fields[i].isSelected()){
+						fields_str[count] = fields[i].getText();
+						count++;
+					}
 				}
 			}
+
 			NYT_search search = new NYT_search(key.getText(), query.getText(), begin_date.getText(), end_date.getText(), fields_str);
 			try {
 				search.search();
